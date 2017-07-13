@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="5dip" >
+
+    <!-- Title Of Song-->
+    <TextView
+        android:id="@+id/title"
+        android:padding="3dip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/layout_availability"
+        android:layout_alignParentLeft="true"
+        android:text="Slot 1"
+        android:textColor="#040404"
+        android:typeface="sans"
+        android:textSize="15dip" />
+
+    <!--  ListRow Left sied Thumbnail image -->
+    <LinearLayout android:id="@+id/layout_availability"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="3dip"
+        android:layout_alignParentRight="true"
+        android:background="@android:color/darker_gray"
+        android:layout_marginRight="5dip">
+
+        <TextView
+            android:id="@+id/text_availability"
+            android:text="Occupied"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</RelativeLayout>
