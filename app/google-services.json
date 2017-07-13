@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "27244375880",
+    "firebase_url": "https://parkiran-e-4869c.firebaseio.com",
+    "project_id": "parkiran-e-4869c",
+    "storage_bucket": "parkiran-e-4869c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:27244375880:android:b99b656d573e0799",
+        "android_client_info": {
+          "package_name": "id.markirin.parkirane"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "27244375880-fh8nbecfd266m4v6fin1h0gc74618aef.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "id.markirin.parkirane",
+            "certificate_hash": "0a21bd28cc2ae8e79d2d006ce8a244a9d8979118"
+          }
+        },
+        {
+          "client_id": "27244375880-p1rhqr6emj5cvfmudqldvp6n6oqe99jt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBP_sXTUBaSWekjd7zcLUjdKGXeaO6j2k0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "27244375880-p1rhqr6emj5cvfmudqldvp6n6oqe99jt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
